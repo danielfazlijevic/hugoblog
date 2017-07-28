@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="generator" content="Hugo 0.25.1" />
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  
+  <title>Daniel Fazlijevic // Blog</title>
+  
+
+  
+  <link rel="stylesheet" href="https://github.com/danielfazlijevic/hugoblog/css/poole.css">
+  <link rel="stylesheet" href="https://github.com/danielfazlijevic/hugoblog/css/syntax.css">
+  <link rel="stylesheet" href="https://github.com/danielfazlijevic/hugoblog/css/hyde.css">
+  <link rel="stylesheet" href="https://github.com/danielfazlijevic/hugoblog/css/additional.css">
+  <link rel="stylesheet" href="https://github.com/danielfazlijevic/hugoblog/css/animate.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/apple-touch-icon-144-precomposed.png">
+  <link rel="shortcut icon" href="/favicon.png">
+
+  
+  <link href="https://github.com/danielfazlijevic/hugoblog/index.xml" rel="alternate" type="application/rss+xml" title="Daniel Fazlijevic // Blog" />
+</head>
+
+<body class="custom-purple ">
+
+
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      <a href="https://github.com/danielfazlijevic/hugoblog/"><h1>Daniel Fazlijevic // Blog</h1></a>
+      <p class="lead">
+      Programming, technology and life.
+      </p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li><a href="/">Home</a> </li>
+      <li><a href="http://www.danielfazlijevic.com">Portfolio</a> </li>
+      
+    </ul>
+
+    <p>&copy; 2017. All rights reserved. </p>
+  </div>
+</div>
+
+
+    <div class="content container">
+<div class="posts">
+
+      
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://github.com/danielfazlijevic/hugoblog/post/lorem/">
+        Lorem
+      </a>
+    </h1>
+
+    <span class="post-date">Thu, Jul 27, 2017 <span class='read-time'>, 3 min read</span></span>
+
+     Second post ever Squid single-origin coffee brunch kogi church-key pork belly. Ennui pabst chartreuse ethical neutra. Yuccie live-edge leggings fashion axe, scenester yr brunch. Pinterest humblebrag DIY you probably haven&rsquo;t heard of them af put a bird on it raw denim blue bottle fingerstache disrupt vape. Readymade williamsburg yuccie slow-carb hexagon. Flannel readymade keffiyeh pug, cred post-ironic marfa health goth hell of literally farm-to-table gochujang hot chicken. Hammock cornhole austin, iPhone pour-over cred polaroid shaman selvage. 
+      <div>
+        <a class='more' href="/danielfazlijevic/hugoblog/post/lorem/">Read more</a>
+      </div>
+  </div>
+  
+  <div class="post">
+    <h1 class="post-title">
+      <a href="https://github.com/danielfazlijevic/hugoblog/post/welcome/">
+        Welcome
+      </a>
+    </h1>
+
+    <span class="post-date">Fri, Jul 21, 2017 <span class='read-time'>, 2 min read</span></span>
+
+     Welcome! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt ultrices odio, vel ultricies lectus imperdiet vitae. Nulla tincidunt lectus ante, nec vulputate neque lobortis eu. Nam in risus sapien. Cras bibendum auctor egestas. Ut sit amet fermentum purus. Pellentesque ultrices mollis ultrices. Proin dictum ipsum ut nibh porttitor, id gravida ligula malesuada. Phasellus non diam erat. Curabitur fringilla mauris vitae leo luctus, et gravida enim venenatis. Suspendisse potenti. 
+      <div>
+        <a class='more' href="/danielfazlijevic/hugoblog/post/welcome/">Read more</a>
+      </div>
+  </div>
+  
+</div>
+</div>
+
+<div class='scrollTop animated'>
+ <span class="icon-circle-up">
+    </span>
+</div>
+
+<script>
+const scrollTop = document.querySelector('.scrollTop');
+var previousPosition = window.pageYOffset || document.documentElement.scrollTop;
+window.onscroll = function() {
+  var currentPosition = window.pageYOffset || document.documentElement.scrollTop;
+
+  if (previousPosition > currentPosition) {
+    if(!scrollTop.classList.contains('visible')){
+      fadeIn(scrollTop);
+    }
+    console.log('showing')
+  } else {
+  fadeOut(scrollTop);
+  }
+  previousPosition = currentPosition;
+};
+
+function fadeOut(el){
+  el.style.opacity = 1;
+
+  (function fade() {
+    if ((el.style.opacity -= .1) < 0) {
+      el.style.display = "none";
+    } else {
+      requestAnimationFrame(fade);
+    }
+  })();
+}
+
+
+
+function fadeIn(el, display){
+  el.style.opacity = 0;
+  el.style.display = display || "block";
+
+  (function fade() {
+    var val = parseFloat(el.style.opacity);
+    if (!((val += .1) > 1)) {
+      el.style.opacity = val;
+      requestAnimationFrame(fade);
+    }
+  })();
+}
+
+</script>
+  </body>
+</html>

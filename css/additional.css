@@ -1,0 +1,102 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?pru765');
+  src:  url('../fonts/icomoon.eot?pru765#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?pru765') format('truetype'),
+    url('../fonts/icomoon.woff?pru765') format('woff'),
+    url('../fonts/icomoon.svg?pru765#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mail-envelope-closed:before {
+  content: "\e901";
+}
+.icon-menu:before {
+  content: "\e900";
+}
+.icon-arrow-up2:before {
+  content: "\ea3a";
+}
+.icon-circle-up:before {
+  content: "\ea41";
+}
+.icon-share2:before {
+  content: "\ea82";
+}
+.icon-facebook2:before {
+  content: "\ea91";
+}
+.icon-instagram:before {
+  content: "\ea92";
+}
+.icon-twitter:before {
+  content: "\ea96";
+}
+
+
+*{
+    transition: 0.5s;
+}
+
+.scrollTop{
+position: fixed;
+bottom: 15px;
+right: 15px;
+line-height: 0.90 ;
+border-radius: 100%;
+color: #fff;
+font-size: 55px;
+  background: #4776E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #8E54E9, #4776E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #8E54E9, #4776E6); 
+}
+
+
+  .scrollTop{
+  
+  }
+.scrollTop:hover{
+cursor: pointer;
+ box-shadow: 0 0 10px 1px #4d8ff9;
+ -ms-transform: scale(1.15); /* IE 9 */
+    -webkit-transform: scale(1.15); /* Safari */
+    transform: scale(1.15);
+}
+
+@keyframes zoomOut{
+    from{
+         -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari */
+    transform: scale(1);
+    }
+to{
+       -ms-transform: scale(0.3); /* IE 9 */
+    -webkit-transform: scale(0.3); /* Safari */
+    transform: scale(0.3);
+
+}
+}
+@keyframes zoomIn{
+to{
+       -ms-transform: scale(1); /* IE 9 */
+    -webkit-transform: scale(1); /* Safari */
+    transform: scale(1);
+    
+}
+}

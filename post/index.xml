@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Daniel Fazlijevic // Blog</title>
+    <link>https://github.com/danielfazlijevic/hugoblog/post/</link>
+    <description>Recent content in Posts on Daniel Fazlijevic // Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 27 Jul 2017 13:33:27 +0200</lastBuildDate>
+    
+	<atom:link href="https://github.com/danielfazlijevic/hugoblog/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Lorem</title>
+      <link>https://github.com/danielfazlijevic/hugoblog/post/lorem/</link>
+      <pubDate>Thu, 27 Jul 2017 13:33:27 +0200</pubDate>
+      
+      <guid>https://github.com/danielfazlijevic/hugoblog/post/lorem/</guid>
+      <description>Second post ever Squid single-origin coffee brunch kogi church-key pork belly. Ennui pabst chartreuse ethical neutra. Yuccie live-edge leggings fashion axe, scenester yr brunch. Pinterest humblebrag DIY you probably haven&amp;rsquo;t heard of them af put a bird on it raw denim blue bottle fingerstache disrupt vape. Readymade williamsburg yuccie slow-carb hexagon. Flannel readymade keffiyeh pug, cred post-ironic marfa health goth hell of literally farm-to-table gochujang hot chicken. Hammock cornhole austin, iPhone pour-over cred polaroid shaman selvage.</description>
+    </item>
+    
+    <item>
+      <title>Welcome</title>
+      <link>https://github.com/danielfazlijevic/hugoblog/post/welcome/</link>
+      <pubDate>Fri, 21 Jul 2017 22:04:41 +0200</pubDate>
+      
+      <guid>https://github.com/danielfazlijevic/hugoblog/post/welcome/</guid>
+      <description>Welcome! Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt ultrices odio, vel ultricies lectus imperdiet vitae. Nulla tincidunt lectus ante, nec vulputate neque lobortis eu. Nam in risus sapien. Cras bibendum auctor egestas. Ut sit amet fermentum purus. Pellentesque ultrices mollis ultrices. Proin dictum ipsum ut nibh porttitor, id gravida ligula malesuada. Phasellus non diam erat. Curabitur fringilla mauris vitae leo luctus, et gravida enim venenatis. Suspendisse potenti.</description>
+    </item>
+    
+  </channel>
+</rss>
